@@ -16,12 +16,18 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                <a href="Shop.html">Shop</a>
+                <a href="index.html">Shop</a>
                 <div class="dropdown-content">
-                <a href="Shop.html#Cotton">Cotton</a>
-                <a href="Shop.html#silk">Silk</a>
-                <a href="Shop.html#kora">Kora</a>
-                <a href="Shop.html#soft_silk">Soft Silk</a>
+                <a href="#" id="cotton-link">Cotton</a>
+                <a href="#" id="silk-link">Silk</a>
+                <a href="#" id="kora-link">Kora</a>
+                <a href="#" id="soft-silk-link">Soft Silk</a>
+                <a href="#" id="pochampalli-link">Pochampalli</a>
+                <script> document.getElementById('pochampalli-link').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.location.href = 'Shop.html#pochampalli';
+                });
+                </script>
             </div>
         </li>
         <li><a href="index.html#about">About</a></li>
