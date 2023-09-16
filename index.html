@@ -7,6 +7,7 @@
     <title>Kharthika Sarees</title>
 </head>
 <body class>
+    <div id="loader"></div>
     <header>
         <div class="header-left">
             <img src="Photos\KS Logo1.png">
@@ -225,5 +226,11 @@
         </div>
     </footer>
     <script src="functions.js"></script>
+    <script>
+        var lo = document.getElementById("loader");
+        window.addEventListener("load",function(){
+            lo.style.display = "none";
+        })
+    </script>
 </body>
 </html>
