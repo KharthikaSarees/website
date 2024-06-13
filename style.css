@@ -10,12 +10,11 @@ body {
   color: #333;
 }
 
-#loader{
-  background: #d5cfcf url(Home/loader.gif) no-repeat center center;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
+#legals{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  margin-right: 30px;
 }
 
 /* Header */
@@ -485,7 +484,7 @@ video:last-child {
     max-width: 50%;
   }
   .saree-item h3 {
-    font-size: 14px;
+    font-size: 18px;
     padding-right: 10px;
   } 
   .saree-description {

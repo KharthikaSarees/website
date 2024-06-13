@@ -201,16 +201,6 @@ h2 {
   font-size: 24px;
 }
 
-.color-circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 20%;
-  display: inline-block;
-  border: 3px solid black;
-  border-width: 2px;
-  margin-right: 5px; /* Adjust margin as needed */
-}
-
 #Cotton-Chudithars{
   background-color: #d5cfcf;
 }
@@ -251,15 +241,6 @@ a.buy-now-link {
   padding: 20px;
 }
 #soft_silk{
-  background-color: #d5cfcf;
-  padding: 20px;
-}
-
-#pochampalli{
-  background-color: #d5cfcf;
-  padding: 20px;
-}
-#Pochampalli-Chudithars{
   background-color: #d5cfcf;
   padding: 20px;
 }

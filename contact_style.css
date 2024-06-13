@@ -388,11 +388,6 @@ body, h1, h2, h3, p, ul, li, form {
       margin-left: 0px;
       font-size: 13px;
     }
-    .header-left img {
-      padding-left: 10px;
-      width: 50px;
-      height: 50px;
-    }
     .dropdown-content {
       min-width: 120px;
     }
@@ -423,14 +418,14 @@ body, h1, h2, h3, p, ul, li, form {
       font-size: 24px; /* Reduce font size for h1 */
     }
     .owner1 h3{
-      padding-left: 20px;
+      padding-left: 50px;
     }
 
     /* about-2 */
     .owner2{
       flex-direction: column; /* Stack elements vertically */
       align-items: center; /* Center elements horizontally */
-      text-align: center; /* Center text within the container */
+      text-align: left; /* Center text within the container */
     }
     .owner2:hover{
       transform: scale(1.02);
@@ -447,9 +442,8 @@ body, h1, h2, h3, p, ul, li, form {
       padding-left: 20px;
     }
     .owner2 h3{
-      padding-top: 10px;
-      padding-left: 40px;
-      font-size: 25px;
+      text-align: center;
+      padding-left: 85px;
     }
 
     /* Footer */
